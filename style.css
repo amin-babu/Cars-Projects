@@ -41,7 +41,7 @@ body{
   font-weight: 500;
   margin: 0 20px;
   transition: .3s;
-  animation: slideTop 1s ease forwards;
+  animation: slideTop .5s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
 
@@ -68,6 +68,8 @@ body{
   text-decoration: none;
   transform: rotate(45deg);
   transition: .5s;
+  animation: slideLeft .5s ease forwards;
+  animation-delay: calc(.2s * var(--i));
 }
 
 .social-media a:hover{
@@ -186,6 +188,17 @@ body{
   }
   100%{
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0%{
+    transform: translateX(100px) rotate(45deg);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) rotate(45deg);
     opacity: 1;
   }
 }
