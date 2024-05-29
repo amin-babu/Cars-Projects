@@ -16,7 +16,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 8%;
+  padding: 20px 8%;
   background: transparent;
   display: flex;
   justify-content: space-between;
@@ -58,8 +58,8 @@ body{
   align-items: center;
   width: 40px;
   height: 40px;
-  background:transparent;
-  border: 2px solid transparent;
+  background:#1743e3;
+  border: 2px solid #1743e3;
   text-decoration: none;
   transform: rotate(45deg);
   transition: .5s;
@@ -86,23 +86,23 @@ body{
   overflow: hidden;
 }
 
-.home-container{
-  max-width: 650px;
+.home-content{
+  max-width: 600px;
 }
 
-.home-container h1{
+.home-content h1{
   font-size: 50px;
   line-height: 1.2;
 }
 
-.home-container h3{
+.home-content h3{
   font-size: 40px;
   color: #1743e3;
 }
 
-.home-container p{
+.home-content p{
   font-size: 16px;
-  margin: 15px 0 16px;
+  margin: 15px 0 30px;
 }
 
 .btn{
@@ -128,8 +128,8 @@ body{
 .home-img{
   position: relative;
   right: -7%;
-  width: 450px;
-  height: 450px;
+  width: 380px;
+  height: 380px;
   transform: rotate(45deg);
 }
 
@@ -144,10 +144,10 @@ body{
 
 .home-img .rhombus img{
   position: absolute;
-  max-width: 750px;
+  max-width: 680px;
   transform: rotate(-45deg);
-  top: 110px;
-  left: -250px;
+  top: 100px;
+  left: -230px;
 }
 
 .home .rhombus2{
